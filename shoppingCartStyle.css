@@ -1,0 +1,23 @@
+#container {
+  position:absolute;
+  left:50vw;
+  top:300px;
+  transform:translateX(-50%);
+}
+#container > * {
+  font-family: 'Cabin', sans-serif;
+}
+#itemAlert {
+  color:rgb(255, 0, 0);
+  font-weight:bold;
+}
+#inputItem {
+  transition:border-color 0.25s, border-radius 0.25s;
+  outline:none;
+  border-style:solid;
+  border-color:grey;
+}
+#inputItem:hover {
+  border-color:powderblue;
+  border-radius:16px;
+}
